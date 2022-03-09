@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {addNewProduct} from '../actions/products';
 import {connect} from 'react-redux';
 class  Add extends Component {
+    //first commit
     constructor(props)
     {
         super(props);
