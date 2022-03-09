@@ -16,6 +16,7 @@ class  Add extends Component {
             }
         };
     }
+    //second commit
     handleInputChange=(field,value)=>{
         this.setState({[field]:value});
     }
