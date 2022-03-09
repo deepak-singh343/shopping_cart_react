@@ -48,7 +48,7 @@ class  Add extends Component {
                             Name
                         </div>
                         <div className='input-field'>
-                            <input type='text' placeholder='Enter Name of Product' required onChange={(e)=>this.handleInputChange('name',e.target.value)}/>
+                            <input type='text' placeholder='Enter title of Task' required onChange={(e)=>this.handleInputChange('name',e.target.value)}/>
                         </div>
                     </div>
                     <div className='field'>
@@ -56,7 +56,7 @@ class  Add extends Component {
                             Image Link
                         </div>
                         <div className='input-field'>
-                            <input type='text' placeholder='Enter Image Link' required onChange={(e)=>this.handleInputChange('imgUrl',e.target.value)}/>
+                            <input type='text' placeholder='Enter stats' required onChange={(e)=>this.handleInputChange('imgUrl',e.target.value)}/>
                         </div>
                     </div>
                     <div className='field'>

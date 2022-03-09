@@ -20,7 +20,6 @@ export function updateProducts(products) {
 }
 
 export function updateProductDescription(product,index) {
-    console.log('update wale me hu',product);
     return {
         type: UPDATE_PRODUCT_DESCRIPTION,
         product,
